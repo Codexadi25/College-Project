@@ -1,0 +1,27 @@
+{
+   "name": "explorelust",
+   "version": "1.0.0",
+   "description": "This package is the project 'ExploreLust', it is building while learning at the same time.",
+   "main": "app.js",
+   "scripts": {
+     "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "author": "Sarvesh Devrukhakar",
+   "license": "ISC",
+   "dependencies": {
+     "connect": "^3.7.0",
+     "connect-flash": "^0.1.1",
+     "ejs": "^3.1.10",
+     "ejs-mate": "^4.0.0",
+     "express": "^4.21.0",
+     "express-session": "^1.18.1",
+     "formidable": "^3.5.1",
+     "joi": "^17.13.3",
+     "method-override": "^3.0.0",
+     "mkdirp": "^3.0.1",
+     "mongoose": "^8.4.3"
+   },
+   "devDependencies": {
+     "nodemon": "^3.1.7"
+   }
+ }

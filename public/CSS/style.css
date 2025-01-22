@@ -1,0 +1,109 @@
+body {
+   font-family: "Plus Jakarta Sans", sans-serif !important;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+ }
+ 
+ .container {
+   flex: 1;
+ }
+ 
+ /* Navbar */
+ .navbar {
+   height: 5rem;
+ }
+ 
+ .fa-compass {
+   color: #ff385c;
+   font-size: 2rem;
+ }
+ 
+ .nav-link {
+   color: #222222;
+ }
+ 
+ /* Footer */
+ .foot-info {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   background-color: #ebebeb;
+   height: auto;
+   text-align: center;
+   padding: 1rem 0 1.5rem;
+ }
+ 
+ .foot-info-socials,
+ .foot-info-links {
+   width: 100%;
+ }
+ 
+ .foot-info-socials i {
+   font-size: 1.25rem;
+   margin: 0.5rem;
+ }
+ 
+ .foot-info-links a {
+   text-decoration: none;
+   color: #222222;
+ }
+ 
+ .foot-info-links a:hover {
+   text-decoration: underline;
+ }
+ 
+ /* Cards */
+ .listing-link {
+   text-decoration: none;
+ }
+ 
+ .listing-card {
+   border: none !important;
+   margin: 0 0.75rem 1rem;
+   padding: 0;
+ }
+ 
+ .card-img-top {
+   border-radius: 0.75rem !important;
+   width: 100% !important;
+   object-fit: cover !important;
+ }
+ 
+ .card-body {
+   padding: 0 !important;
+ }
+ 
+ .card-text {
+   font-weight: 600 !important;
+ }
+ 
+ .card-text span {
+   font-weight: normal !important;
+ }
+ 
+ /* Card Overlay Effect on Card */
+ .card-img-overlay {
+   opacity: 0;
+ }
+ 
+ .card-img-overlay:hover {
+   opacity: 0.25;
+   background-color: rgba(255, 255, 255, 0.5);
+ }
+ 
+ /* Add New Listing Form */
+ .add-new-listing-btn {
+   background-color: #ff385c !important;
+ }
+ 
+ /* Edit Listing Form */
+ .edit-listing-btn {
+   background-color: #ff385c !important;
+ }
+ 
+ /* Show Listing Page */
+ .show-img {
+   height: 30dvh;
+ }
