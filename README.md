@@ -83,19 +83,19 @@ To develop and manage the project efficiently, the following tools were utilized
    npm install
    ```
 4. Set up MongoDB and Firebase:
-   * - Configure your MongoDB connection string in the .env file.
-   * - Set up Firebase credentials for image management.
+   * Configure your MongoDB connection string in the .env file.
+   * Set up Firebase credentials for image management.
 5. Start the server:
    ```cmd
    nodemon start 
    ```
 6. Directory Overview:
-   -- models: Contains data models.
-   -- node_modules: Houses project dependencies.
-   -- public: Includes static assets like images, CSS files, and client-side JavaScript.
-   -- routes: Defines application routes.
-   -- utils: Contains utility functions.
-   -- views: Holds EJS templates for rendering web pages.
-   -- app.js: Main application file.
-   -- package.json: Lists project dependencies and scripts.
-   -- schema.js: Defines database schemas
+   * models: Contains data models.
+   - node_modules: Houses project dependencies.
+   - public: Includes static assets like images, CSS files, and client-side JavaScript.
+   - routes: Defines application routes.
+   - utils: Contains utility functions.
+   - views: Holds EJS templates for rendering web pages.
+   - app.js: Main application file.
+   - package.json: Lists project dependencies and scripts.
+   - schema.js: Defines database schemas
