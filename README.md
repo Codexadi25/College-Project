@@ -132,4 +132,4 @@ Just open the elevated terminal on a location on your system; copy & paste the f
    - ```Aditya Sahu``` : `Team Leader` | `FullStack Web Developer` | `Admin`
    - ```Aditya Shukla``` : `Frontend Developer`
    - ```Anurag Kamal```: `Web Resource & Database Manager`
-   - ```Anuj Pandey```: `Html5 / Css`
+   - ```Anuj Pandey```: `html5 / SCSS / css3`
