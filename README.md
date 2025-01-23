@@ -129,7 +129,7 @@ Just open the elevated terminal on a location on your system; copy & paste the f
    This project is licensed under the MIT License. Feel free to use and modify the code as per your requirements.
 ---
 ### Authors & Contributors
-   - ```Aditya Sahu``` : Team Leader | Backend Developer | Admin
-   - ```Aditya Shukla``` : Frontend Developer
-   - ```Anurag Kamal```: Web Resource & Database Manager
-   - ```Anuj Pandey```: Html5 / Css
+   - ```Aditya Sahu``` : `Team Leader` | `FullStack Web Developer` | `Admin`
+   - ```Aditya Shukla``` : `Frontend Developer`
+   - ```Anurag Kamal```: `Web Resource & Database Manager`
+   - ```Anuj Pandey```: `Html5 / Css`
