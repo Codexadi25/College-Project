@@ -1,4 +1,6 @@
-# Traversal.in
+# Traversal.in | Travel & Dine Across The Globe Anytime Anywhere
+Backend Website to List Hotels & Restaurants Using Express, Node.js, Firebase, EJS with MongoDB as Backend.
+---
 This repository contains a backend web application for managing hotel and restaurant listings. It is designed to simplify the process of adding, updating, viewing, and deleting information about hotels and restaurants. The project integrates modern web technologies to provide a robust and scalable solution for the hospitality industry.
 
 ---
@@ -37,6 +39,25 @@ This project leverages the following technologies and frameworks:
 - **Bootstrap**: Enhances the frontend with responsive and consistent styling.
 - **JavaScript**: Powers both client-side and server-side operations.
 
+   ```json
+   "dependencies": {
+     "connect": "^3.7.0",
+     "connect-flash": "^0.1.1",
+     "ejs": "^3.1.10",
+     "ejs-mate": "^4.0.0",
+     "express": "^4.21.0",
+     "express-session": "^1.18.1",
+     "formidable": "^3.5.1",
+     "joi": "^17.13.3",
+     "method-override": "^3.0.0",
+     "mkdirp": "^3.0.1",
+     "mongoose": "^8.4.3"
+   },
+   "devDependencies": {
+     "nodemon": "^3.1.7"
+   }
+   ```
+
 ---
 
 ## 3. Software Used
@@ -70,6 +91,8 @@ To develop and manage the project efficiently, the following tools were utilized
 
 ## 5. How to Run the Project
 
+Just open the elevated terminal on a location on your system; copy & paste the following commands on your machine :
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/Codexadi25/College-Project.git
@@ -99,3 +122,14 @@ To develop and manage the project efficiently, the following tools were utilized
    - app.js: Main application file.
    - package.json: Lists project dependencies and scripts.
    - schema.js: Defines database schemas
+7. Open your browser and access the application at ```http://localhost:8080```.
+
+8. License
+
+   This project is licensed under the MIT License. Feel free to use and modify the code as per your requirements.
+---
+### Authors & Contributors
+   - ```Aditya Sahu``` : Team Leader | Backend Developer | Admin
+   - ```Aditya Shukla``` : Frontend Developer
+   - ```Anurag Kamal```: Web Resource & Database Manager
+   - ```Anuj Pandey```: Html5 / Css

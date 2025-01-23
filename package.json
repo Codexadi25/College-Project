@@ -1,12 +1,12 @@
 {
-   "name": "explorelust",
+   "name": "traversal",
    "version": "1.0.0",
    "description": "This package is the project 'Traversal.in', it is building while learning at the same time.",
    "main": "app.js",
    "scripts": {
      "test": "echo \"Error: no test specified\" && exit 1"
    },
-   "author": "Sarvesh Devrukhakar",
+   "author": "Aditya Sahu",
    "license": "ISC",
    "dependencies": {
      "connect": "^3.7.0",
