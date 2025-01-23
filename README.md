@@ -83,8 +83,8 @@ To develop and manage the project efficiently, the following tools were utilized
    npm install
    ```
 4. Set up MongoDB and Firebase:
-   * Configure your MongoDB connection string in the .env file.
-   * Set up Firebase credentials for image management.
+   * - Configure your MongoDB connection string in the .env file.
+   * - Set up Firebase credentials for image management.
 5. Start the server:
    ```cmd
    nodemon start 
