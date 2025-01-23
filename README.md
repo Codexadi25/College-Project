@@ -124,6 +124,41 @@ Just open the elevated terminal on a location on your system; copy & paste the f
    - schema.js: Defines database schemas
 7. Open your browser and access the application at ```http://localhost:8080```.
 
+8. ### Setup Netlify Deployment
+   ```bash
+      npm i express serverless-http @netlify/functions @types/express
+   ```
+   ```bash
+      npm i express serverless-http netlify-cli netlify-lambda
+   ```
+   ```bash
+      npm i -g netlify-cli
+   ```
+   login into Netlify CLI
+   ```bash
+      netlify login 
+   ``` 
+   ```bash
+      netlify deploy --prod
+   ```
+   Admin URL: https://app.netlify.com/sites/TraversalApp
+   URL:       https://TraversalApp.netlify.app
+
+   Netlify Build
+   ────────────────────────────────────────────────────────────────
+
+   ❯ Context
+   -   ✔ Finished uploading blobs to deploy store
+   -   ✔ No cached functions were found
+   -   ✔ Finished hashing
+   -   ✔ CDN requesting 29 files
+   -   ✔ Finished uploading 29 assets
+   -   ✔ Deploy is live!
+
+   
+   Website URL: [https://traversalapp.netlify.app](https://traversalapp.netlify.app)
+   
+
 8. License
 
    This project is licensed under the MIT License. Feel free to use and modify the code as per your requirements.
