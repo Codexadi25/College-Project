@@ -113,7 +113,7 @@ Just open the elevated terminal on a location on your system; copy & paste the f
    nodemon start 
    ```
 6. Directory Overview:
-   * models: Contains data models.
+   - models: Contains data models.
    - node_modules: Houses project dependencies.
    - public: Includes static assets like images, CSS files, and client-side JavaScript.
    - routes: Defines application routes.
@@ -133,3 +133,6 @@ Just open the elevated terminal on a location on your system; copy & paste the f
    - ```Aditya Shukla``` : `Frontend Developer`
    - ```Anurag Kamal```: `Web Resource & Database Manager`
    - ```Anuj Pandey```: `html5 / SCSS / css3`
+
+---
+##### [Introduction PPT](https://travel-dine-across-the-g-szrnzlm.gamma.site/)
