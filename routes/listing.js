@@ -24,6 +24,24 @@ router.get(
     }),
 );
 
+router.get('/listings/:location', 
+    wrapAsync(async (req, res) => {
+    try {
+        const {location} = req.params.location;
+        // Fetch data from MongoDB
+        const listings = await Listing.find({ location });
+
+        if (listings.length === 0) {
+            return res.status(404).json({ message: 'No listings found for the specified location.' });
+        }
+        // res.render('listings', { listings, location });
+        res.render("../views/listings/indexLoc.ejs", { listings: location }); //Passing all listings to index.ejs with key name as `listings`.
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ message: 'An error occurred while fetching the listings.' });
+    }
+}));
+
 // New Form Route: /listings/new - To create a new listing.
 router.get("/new", (req, res) => {
     res.render("../views/listings/new.ejs");
