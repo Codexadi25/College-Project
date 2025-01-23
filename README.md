@@ -74,3 +74,14 @@ To develop and manage the project efficiently, the following tools were utilized
    ```bash
    git clone https://github.com/Codexadi25/College-Project.git
    ```
+2. Navigate to the project directory:
+   ```bash
+   cd College-Project
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up MongoDB and Firebase:
+   *Configure your MongoDB connection string in the .env file.
+   *Set up Firebase credentials for image management.
